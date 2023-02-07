@@ -21,3 +21,7 @@ document.getElementById('btn-remove-age').addEventListener('click', function () 
 
     localStorage.removeItem('age')
 })
+document.getElementById('btn-clear-ls').addEventListener('click', function () {
+
+    localStorage.clear()
+})
